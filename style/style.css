@@ -127,6 +127,11 @@ body {
     padding: 0 15px;
 }
 
+.col-5 {
+    width: 42%;
+    padding: 0 15px;
+}
+
 .about {
     padding: 80px 0;
 }
@@ -310,6 +315,40 @@ body {
     padding: 80px 0;
     background-color: #f7f7f7;
 }
+.portfolio-tabl {
+    display: flex;
+    list-style: none;
+    padding-bottom: 40px;
+}
+.portfolio-tabl li {
+    padding: 12px 18px 14px;
+    background-color: #FFFFFF;
+    border-radius: 10%;
+    margin: 0 10px 5px;
+    font-size: 14px;
+    color: #FFFFFF;
+    transition: 2s;
+}
+.portfolio-tabl a {
+    color: #666666;
+}
+.portfolio-all:hover  {
+    background-color: #2dc997;
+    color: #FFFFFF;
+}
+.portfolio-app:hover  {
+    background-color: #2dc997;
+    color: #FFFFFF;
+}
+.portfolio-card:hover  {
+    background-color: #2dc997;
+    color: #FFFFFF;
+}
+.portfolio-web:hover  {
+    background-color: #2dc997;
+    color: #FFFFFF;
+}
+
 
 .portfolio-img {
     max-width: 100%;
@@ -397,5 +436,119 @@ body {
     color: #FFFFFF;
 }
 
+.justify-content-center {
+    display: flex;
+    justify-content: center;
 
 
+
+}
+
+.bx-map {
+    font-size: 32px;
+    color: #2dc997;
+    float: left;
+    line-height: 0;
+    padding-top: 20px;
+}
+
+.info p {
+    padding: 0 0 10px 50px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.contact {
+    background: #f7f7f7;
+    padding: 80px 0 40px 0;
+}
+
+.bx-envelope {
+    font-size: 32px;
+    color: #2dc997;
+    float: left;
+    line-height: 0;
+    padding-top: 20px;
+
+}
+
+.fa-mobile-alt {
+    font-size: 32px;
+    color: #2dc997;
+    float: left;
+    line-height: 0;
+    padding-top: 20px;
+}
+
+.info {
+    padding-top: 50px;
+}
+
+.social-icons {
+    font-size: 18px;
+    background: #333;
+    color: #fff;
+    line-height: 1;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.twitter:hover {
+    background-color: #2dc997;
+}
+
+.facebook:hover {
+    background-color: #2dc997;
+}
+
+.instagram:hover {
+    background-color: #2dc997;
+}
+
+.linkedin:hover {
+    background-color: #2dc997;
+}
+
+
+.form-control {
+    padding: 6px 12px;
+    width: 100%;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #212529;
+    border: 1px solid #ced4da;
+    font-weight: 400;
+}
+
+.form-box {
+    padding: 6px;
+}
+
+.form {
+    padding-top: 40px;
+}
+
+.btn-form {
+    text-align: center;
+}
+
+.social-form button {
+    padding: 12px 20px;
+    background-color: #2dc997;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.social-form button:hover {
+    background-color: #99dec8;
+
+}
