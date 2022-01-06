@@ -17,23 +17,23 @@
             <img src="./images/logoRegna.png" alt="logo" class="logo-img">
         </a>
         <nav class="menu">
-            <a href="#" class="menu-link">Home</a>
-            <a href="#" class="menu-link">About</a>
-            <a href="#" class="menu-link">Services</a>
-            <a href="#" class="menu-link">Portfolio</a>
-            <a href="#" class="menu-link">Team</a>
-            <a href="#" class="menu-link">Contact</a>
+            <a href="#hero" class="menu-link">Home</a>
+            <a href="#about" class="menu-link">About</a>
+            <a href="#services" class="menu-link">Services</a>
+            <a href="#portfolio" class="menu-link">Portfolio</a>
+            <a href="#team" class="menu-link">Team</a>
+            <a href="#contact" class="menu-link">Contact</a>
         </nav>
     </div>
 </header>
-<section class="hero">
+<section id="hero" class="hero">
     <div class="container hero-container">
         <h1 class="hero-title">welcome to regna</h1>
         <p class="hero-desc">We are team of talented designers making websites with Bootstrap</p>
         <a href="#" class="btn">get started</a>
     </div>
 </section>
-<section class="about">
+<section id="about" class="about">
     <div class="container">
         <div class="row">
             <div class="col-6">
@@ -96,7 +96,7 @@
         </ul>
     </div>
 </section>
-<section class="services">
+<section id="services" class="services">
     <div class="container">
         <h3 class="section-title">services</h3>
         <p class="section-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
@@ -178,17 +178,17 @@
         </div>
     </div>
 </section>
-<section class="portfolio">
+<section id="portfolio" class="portfolio">
     <div class="container">
         <h2 class="section-title">Portfolio</h2>
         <p class="section-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
             doloremque</p>
         <div class="justify-content-center">
             <ul class="portfolio-tabl">
-                <li class="portfolio-all"><a href="#">All</a></li>
-                <li class="portfolio-app"><a href="#">App</a></li>
-                <li class="portfolio-card"><a href="#">Card</a></li>
-                <li class="portfolio-web"><a href="#">Web</a></li>
+                <li class="portfolio-categories active"><a href="#">All</a></li>
+                <li class="portfolio-categories"><a href="#">App</a></li>
+                <li class="portfolio-categories"><a href="#">Card</a></li>
+                <li class="portfolio-categories"><a href="#">Web</a></li>
             </ul>
         </div>
         <div class="row">
@@ -276,7 +276,7 @@
         </div>
     </div>
 </section>
-<section class="team">
+<section id="team" class="team">
     <div class="container">
         <h3 class="section-title">team</h3>
         <p class="section-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
@@ -285,7 +285,9 @@
             <div class="col-3">
                 <div class="team-box">
                     <div class="team-pic">
-                        <img src="./images/team-1.jpg" alt="">
+                        <div class="team-img">
+                            <img src="./images/team-1.jpg" alt="">
+                        </div>
                     </div>
                     <h4 class="team-name">Walter White</h4>
                     <p class="team-job">Chief Executive Officer</p>
@@ -294,7 +296,9 @@
             <div class="col-3">
                 <div class="team-box">
                     <div class="team-pic">
-                        <img src="./images/team-2.jpg" alt="">
+                        <div class="team-img">
+                            <img src="./images/team-2.jpg" alt="">
+                        </div>
                     </div>
                     <h4 class="team-name">Sarah Jhinson</h4>
                     <p class="team-job">Product Manager</p>
@@ -303,7 +307,9 @@
             <div class="col-3">
                 <div class="team-box">
                     <div class="team-pic">
-                        <img src="./images/team-3.jpg" alt="">
+                        <div class="team-img">
+                            <img src="./images/team-3.jpg" alt="">
+                        </div>
                     </div>
                     <h4 class="team-name">William Anderson</h4>
                     <p class="team-job">CTO</p>
@@ -312,7 +318,9 @@
             <div class="col-3">
                 <div class="team-box">
                     <div class="team-pic">
-                        <img src="./images/team-4.jpg" alt="">
+                        <div class="team-img">
+                            <img src="./images/team-4.jpg" alt="">
+                        </div>
                     </div>
                     <h4 class="team-name">Amanda Jepson</h4>
                     <p class="team-job">Accountant</p>
@@ -321,7 +329,7 @@
         </div>
     </div>
 </section>
-<section class="contact">
+<section id="contact" class="contact">
     <div class="container">
         <div class="contact-header">
             <h4 class="section-title">CONTACT</h4>
