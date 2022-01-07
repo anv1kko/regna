@@ -16,6 +16,7 @@ body {
 
 }
 
+
 .hero {
     background: rgba(0, 0, 0, 0.5) url("../images/hero.jpg") no-repeat top center/cover;
     background-blend-mode: darken;
@@ -50,7 +51,7 @@ body {
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 1320px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -336,6 +337,8 @@ body {
     display: flex;
     list-style: none;
     padding-bottom: 40px;
+}
+.portfolio-tabl a {
     color: #666;
 }
 .portfolio-categories {

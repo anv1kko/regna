@@ -1,0 +1,105 @@
+@media (max-width: 1200px) {
+ .container {
+     max-width: 960px;
+ }
+    .row {
+        align-items: center;
+    }
+    .about-image {
+        padding: 180px;
+    }
+
+
+}
+
+
+@media (max-width: 992px) {
+   .container {
+       max-width: 740px;
+   }
+    .hero-desc {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .about-title {
+        font-size: 31px;
+    }
+    .col-4 {
+        width: 50%;
+    }
+    .col-3 {
+        width: 50%;
+    }
+    .col-3-act {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-9 {
+        text-align: center;
+        width: 100%;
+    }
+    .action-title {
+        margin-bottom: 20px;
+    }
+    .action-desc {
+        margin-bottom: 40px;
+    }
+
+
+
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .col-6-about-title {
+        width: 100%;
+    }
+    .about-image {
+        width: 100%;
+        padding: 200px;
+    }
+    .menu {
+        width: 250px;
+    }
+    .about-title {
+        text-align: center;
+    }
+    .about-desc {
+        text-align: center;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    .facts-stats {
+        flex-direction: column;
+        text-align: center;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    .col-3 {
+        width: 100%;
+    }
+    .col-5 {
+        width: 100%;
+    }
+    .justify-content-center .col-3-contacts{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+
+
+}
