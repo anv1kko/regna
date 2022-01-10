@@ -121,10 +121,10 @@
 
 @media (max-width: 576px) {
     .hero-title {
-        font-size: 33px;
+        font-size: 30px;
     }
     .hero-desc {
-        font-size: 19px;
+        font-size: 17px;
     }
 
     .section-desc-facts {
@@ -160,7 +160,7 @@
     }
 
     .team-name {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .team-job {
@@ -168,8 +168,11 @@
     }
 
     .social-icons-team {
-        font-size: 27px;
+        font-size: 24px;
     }
+
+
+
 
 
 }
