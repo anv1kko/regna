@@ -216,7 +216,7 @@ body {
 .about-icon:hover {
     background: #2dc997;
     color: white;
-    transition: 0.6s;
+    transition: 0.4s;
 
 }
 
@@ -277,7 +277,7 @@ body {
     border-radius: 50%;
     border: 2px solid #2dc997;
     background: #2dc997;
-    transition: 0.5s;
+    transition: 0.3s;
 
 
 }
@@ -361,16 +361,19 @@ body {
     border-radius: 10%;
     margin: 0 10px 5px;
     font-size: 14px;
-    transition: 2s;
+    transition: 1s;
 }
 
-.portfolio-categories.active {
+.portfolio-categories.active  {
     background-color: #2dc997;
     color: #FFFFFF;
 }
 
-.portfolio-categories:hover {
+.portfolio-categories:hover  {
     background-color: #2dc997;
+
+}
+.portfolio-categories:hover a {
     color: #FFFFFF;
 }
 
@@ -391,16 +394,24 @@ body {
 
 .overlay {
     position: absolute;
-    right: 0;
-    bottom: -100px;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #2dc997;
-    padding: 15px;
+    padding: 13px 20px;
+    color: #ffffff;
+    width: 100%;
     transition: 0.6s;
+    bottom: -100px;
 }
 
 .portfolio-item:hover .overlay {
     bottom: 0;
+}
+.portfolio-link i {
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 5px;
 }
 
 .overlay-title {
